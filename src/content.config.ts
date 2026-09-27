@@ -21,7 +21,7 @@ const posts = defineCollection({
       createdAt: z.coerce.date(),
       updatedAt: z.coerce.date().optional(),
       category: reference("categories"),
-      tags: z.array(reference("tags")).optional().default([]),
+      tags: z.array(z.string()).optional().default([]),
       summary: z.string().optional().default(""),
       cover: image().optional(),
       draft: z.boolean().default(false),
@@ -43,9 +43,7 @@ const projects = defineCollection({
       github: z.string().url().optional(),
       demo: z.string().url().optional(),
     }).optional(),
-    status: z
-      .enum(["planning", "in-progress", "completed", "archived"])
-      .default("completed"),
+    status: z.coerce.string(),
     image: z.string().optional(),
   }),
 });

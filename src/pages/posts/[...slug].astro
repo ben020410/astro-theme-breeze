@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
 const category = await getEntry(post.data.category);
-const tags = (await getEntries(post.data.tags)).filter((value) => value);
+const tags = post.data.tags || [];
 ---
 
 <Layout title={post.data.title} description={post.data.summary}>
@@ -122,14 +122,14 @@ const tags = (await getEntries(post.data.tags)).filter((value) => value);
       {
         tags.map((tag) => (
           <a
-            href={`/tags/${tag.data.slug}`}
+            href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`}
             class="group flex items-center gap-1.5 rounded-xl border border-border/50 bg-muted/30 px-3 py-1.5 transition-all hover:border-primary/40 hover:bg-card"
           >
             <span class="font-mono text-xs text-primary/40 italic group-hover:text-primary">
               #
             </span>
             <span class="text-xs font-medium text-muted-foreground transition-colors group-hover:text-foreground">
-              {tag.data.name}
+              {tag}
             </span>
           </a>
         ))

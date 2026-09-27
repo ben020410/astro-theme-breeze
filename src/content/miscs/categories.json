@@ -1,21 +1,21 @@
 [
   {
-    "name": "Technology",
-    "slug": "technology",
-    "description": "Articles about web development and programming",
-    "icon": "mdi:code-tags"
+    "name": "Robotics & AI",
+    "slug": "robotics-ai",
+    "description": "Embodied AI, VLM, 3D Vision, and autonomous manipulation research",
+    "icon": "mdi:robot"
   },
   {
-    "name": "Design",
-    "slug": "design",
-    "description": "Thoughts on UI/UX and visual design",
-    "icon": "mdi:palette"
+    "name": "Aerospace & B2B",
+    "slug": "aerospace-b2b",
+    "description": "Aerospace engineering, defense tech, and B2B corporate partnerships",
+    "icon": "mdi:rocket-launch"
   },
   {
-    "name": "Life",
-    "slug": "life",
-    "description": "Daily life and personal reflections",
-    "icon": "mdi:coffee"
+    "name": "Data & Software",
+    "slug": "data-software",
+    "description": "Multimodal AI services, data analytics, and software development",
+    "icon": "mdi:brain"
   },
   {
     "name": "Uncategorized",

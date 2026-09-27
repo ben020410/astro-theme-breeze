@@ -9,11 +9,11 @@ const artalkEnabled =
 const site = {
   // --- Site Metadata ---
   meta: {
-    title: "Breeze",
-    description: "A minimal Astro theme for personal websites",
-    author: "Your Name",
-    logo: "/logo.svg",
-    ogImage: "/og-image.png",
+    title: "Semin Na",
+    description: "Undergraduate student @ Seoul Nat'l Univ.",
+    author: "Semin Na",
+    logo: "/profile.png",
+    ogImage: "/og-image.jpg",
     // HTML lang attribute, affects page language and date formatting
     // Options: "zh-CN", "en", "ja", etc.
     lang: "en",
@@ -21,18 +21,16 @@ const site = {
 
   // --- Navigation ---
   // subtitle: decorative label shown below the name (uppercase, small text)
-  navigation: [
-    { name: "Home", subtitle: "Index", href: "/" },
-    { name: "Writing", subtitle: "Blog", href: "/posts" },
-    { name: "Projects", subtitle: "Works", href: "/projects" },
-    { name: "Friends", subtitle: "Links", href: "/friends" },
-    { name: "About", subtitle: "Me", href: "/about" },
-  ],
+navigation: [
+  { name: "Home", subtitle: "Index", href: "/" },
+  { name: "Projects", subtitle: "R&D & Works", href: "/posts" }, // 상세 페이지가 있는 대표 성과
+  { name: "About", subtitle: "Resume & Bio", href: "/about" },   // 통합 이력서 단일 마크다운
+],
 
   // --- Social Links ---
   social: [
-    { name: "GitHub", href: "https://github.com/your-username", icon: "mdi:github" },
-    { name: "Email", href: "mailto:hello@example.com", icon: "mdi:email" },
+    { name: "GitHub", href: "https://github.com/ben020410", icon: "mdi:github" },
+    { name: "Email", href: "mailto:ben020410@snu.ac.kr", icon: "mdi:email" },
   ],
 
   friendCard: {
@@ -44,19 +42,19 @@ const site = {
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, I'm Breeze",
+    greeting: "👋 Hello, I'm Semin Na",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
-      'A minimal personal website theme built with <span class="font-medium text-foreground underline decoration-primary/30">Astro</span> and <span class="font-medium text-foreground underline decoration-primary/30">Tailwind CSS</span>.',
+      'Undergraduate student at <span class="font-medium text-foreground underline decoration-primary/30">Seoul National University</span> focused on <span class="font-medium text-foreground underline decoration-primary/30">Autonomous Robotics</span>, Embodied AI, and tech entrepreneurship.',
     cards: [
-      { icon: "mdi:explore", label: "Status", value: "Building something cool" },
-      { icon: "mdi:location", label: "Location", value: "Earth" },
+      { icon: "mdi:robot", label: "Research", value: "Autonomous Robotics & AI" },
+      { icon: "mdi:rocket-launch", label: "Status", value: "Tech Entrepreneurship" },
     ],
   },
 
   // --- Footer ---
   footer: {
-    copyright: "© 2025 Breeze",
+    copyright: "© 2026 Semin Na. All rights reserved.",
     builtWith: "Built with Astro",
   },
 
@@ -114,9 +112,9 @@ const site = {
   // --- UI Labels ---
   // Customize these values to change the text displayed on pages
   labels: {
-    postsTitle: "Writing",
-    postsDescription: "Notes, thoughts, and technical musings",
-    projectsTitle: "Projects",
+    postsTitle: "Projects",
+    postsDescription: "Research & Development works, personal projects, and open-source contributions.",
+    projectsTitle: "d",
     projectsDescription: "Small tools built for fun or to solve real problems.",
     friendsTitle: "Friends",
     friendsDescription: "Like-minded folks around the web.",
