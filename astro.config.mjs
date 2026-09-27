@@ -12,12 +12,6 @@ export default defineConfig({
   // IMPORTANT: Change this to your deployed site URL
   site: "https://your-domain.com",
 
-  image: {
-    service: {
-      entrypoint: 'astro/assets/services/passthrough'
-    }
-  },
-  
   vite: {
     plugins: [tailwindcss()],
   },
