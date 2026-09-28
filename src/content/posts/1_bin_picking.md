@@ -12,14 +12,14 @@ summary: Teaching-less 3D Vision-Robot auto-calibration and tool orientation opt
 Industrial bin-picking and sanding automation pipeline developed in collaboration with **Hyundai Motor Company** and **Ajin Industrial Co., Ltd.**
 
 ### 📌 Core Technical Contributions
-- **Teaching-less Auto-Calibration**: Derived a $4 \times 4$ Homogeneous Transformation Matrix using empirical displacements to eliminate manual robot teaching.
+- **Teaching-less Auto-Calibration**: Derived a 4×4 Homogeneous Transformation Matrix using empirical displacements to eliminate manual robot teaching.
 - **Tool Orientation Optimization**: Applied **SVD Plane Fitting** and **Rodrigues' Rotation Formula** to align tool orientations with 3D point cloud surface normal vectors.
 - **6-DOF Kinematics Modeling**: Implemented forward kinematics for Hyundai Robotics HH020 manipulator to analyze joint limit constraints and singularities.
 
 ### 🏛️ Grant & Industry Credits
-- **National R&D Project**: Ministry of Science and ICT (MSIT) / NRF (Grant No. `RS-2021-NR057855`, 180M KRW)
+- **National R&D Project**: Ministry of Science and ICT (MSIT) / NRF (Grant No. `RS-2021-NR057855`)
 - **Consortium & Partners**: SNU Materials & Components Consortium, Hyundai Motor, Ajin Industrial
-- **Role**: Co-Researcher (Registered in MSIT IRIS System)
+- **Role**: Co-Researcher
 
 ---
 
