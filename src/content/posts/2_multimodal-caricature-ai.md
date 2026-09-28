@@ -1,5 +1,6 @@
 ---
 title: "Multimodal AI Personalized Storybook & Caricature Generation Service"
+subtitle: "2024 AI Convergence Industry-Academia Hackathon"
 createdAt: 2024-08-01
 category: data-software
 tags: [Generative-AI, GPT-4o, DALL-E-3, Multimodal, Computer-Vision]

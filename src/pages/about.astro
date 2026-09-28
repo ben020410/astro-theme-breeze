@@ -12,24 +12,5 @@ const { Content } = await render(about!);
     <div class="prose dark:prose-invert">
       <Content />
     </div>
-
-    <footer class="mt-14 space-y-6">
-      <h4 class="text-[10px] font-bold tracking-[0.3em] text-primary uppercase">
-        Contact
-      </h4>
-      <div class="flex flex-wrap gap-4">
-        {
-          site.social.map((item) => (
-            <a
-              href={item.href}
-              class="border-b border-border pb-0.5 text-sm text-muted-foreground hover:border-primary hover:text-primary"
-              title={item.name}
-            >
-              {item.name}
-            </a>
-          ))
-        }
-      </div>
-    </footer>
   </div>
 </Layout>

@@ -1,5 +1,6 @@
 ---
 title: "Korean Virtual Power Plant (VPP) & V2G Peak Demand Control Optimization"
+subtitle: "2024 CO-Data Station"
 createdAt: 2024-11-01
 category: data-software
 tags: [Data-Science, VPP, Smart-Grid, Optimization, Energy-AI]

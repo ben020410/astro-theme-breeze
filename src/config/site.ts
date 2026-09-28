@@ -13,7 +13,7 @@ const site = {
     description: "Undergraduate student @ Seoul Nat'l Univ.",
     author: "Semin Na",
     logo: "/profile.png",
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.png",
     // HTML lang attribute, affects page language and date formatting
     // Options: "zh-CN", "en", "ja", etc.
     lang: "en",
@@ -42,7 +42,7 @@ navigation: [
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, I'm Semin Na",
+    greeting: "Hello, I'm Semin Na",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
       'Undergraduate student at <span class="font-medium text-foreground underline decoration-primary/30">Seoul National University</span> focused on <span class="font-medium text-foreground underline decoration-primary/30">Autonomous Robotics</span>, Embodied AI, and tech entrepreneurship.',

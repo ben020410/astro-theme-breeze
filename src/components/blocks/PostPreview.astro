@@ -48,6 +48,10 @@ const isNew = !post.data.draft && (post.data.new || (site.features.newPostDays >
       <a href={`/categories/${category?.id}`} class="hover:text-primary">
         {category?.data.name}
       </a>
+      {/* subtitle이 작성된 글에만 카테고리 옆에 표시 */}
+      {post.data.subtitle && (
+        <span> | {post.data.subtitle}</span>
+      )}
     </p>
   </div>
   <span class="text-border transition-all duration-300 group-hover:translate-x-1 group-hover:text-primary">

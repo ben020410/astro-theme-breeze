@@ -1,7 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M18 38 Q42 18 68 38 Q88 54 105 30" stroke="#3F9C87" stroke-width="8" stroke-opacity="0.5"/>
-    <path d="M10 62 Q40 36 72 62 Q96 82 112 52" stroke="#3F9C87" stroke-width="10"/>
-    <path d="M22 86 Q48 66 74 86 Q94 100 108 78" stroke="#3F9C87" stroke-width="8" stroke-opacity="0.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <!-- 날개 클리핑 영역 -->
+    <clipPath id="wing-clip">
+      <path d="M 50 32
+               C 32 46, 16 56, 8 64
+               L 8 80
+               C 8 83, 10 85, 13 85
+               L 87 85
+               C 90 85, 92 83, 92 80
+               L 92 64
+               C 84 56, 68 46, 50 32 Z"/>
+    </clipPath>
+
+    <!-- 몸통 클리핑 영역 -->
+    <clipPath id="body-clip">
+      <path d="M 32 78
+               L 32 25
+               C 32 8, 40 2, 50 2
+               C 60 2, 68 8, 68 25
+               L 68 78
+               C 68 85, 63 90, 56 90
+               L 44 90
+               C 37 90, 32 85, 32 78 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- 1. 하단 추진구 (엔진 노즐) -->
+  <rect x="37" y="84" width="26" height="13" rx="5" fill="#9FB0BC"/>
+
+  <!-- 2. 양쪽 날개 (회색 + 하단 레드 띠) -->
+  <g clip-path="url(#wing-clip)">
+    <rect x="0" y="0" width="100" height="100" fill="#CBD5DC"/>
+    <rect x="0" y="77" width="100" height="15" fill="#C93B52"/>
+  </g>
+
+  <!-- 3. 메인 로켓 몸통 (연회색 + 상단 레드 노즈콘 + 블루 창문) -->
+  <g clip-path="url(#body-clip)">
+    <rect x="0" y="0" width="100" height="100" fill="#E1E8ED"/>
+    <path d="M 25 18 C 40 22, 60 22, 75 18 L 75 0 L 25 0 Z" fill="#C93B52"/>
+    <circle cx="50" cy="33" r="6" fill="#3BB3E4"/>
+    <circle cx="50" cy="50" r="6" fill="#3BB3E4"/>
+    <circle cx="50" cy="67" r="6" fill="#3BB3E4"/>
   </g>
 </svg>
