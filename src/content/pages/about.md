@@ -53,6 +53,9 @@ description: Embodied AI Researcher & Tech Entrepreneur
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9M5 10v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V10"/></svg>
   </a>
   - Exercised full voting rights on the corporate board for university welfare business and financial governance
+- **Chairman / General Director**, 35th SNU Aerospace Exhibition & Festival Committee *(Jun 2022 - Nov 2022)*
+  - Directed total event operations, technical exhibitions, and cross-departmental logistics for the university-wide festival
+  - Secured ₩11 Million in corporate sponsorships to fund large-scale R&D exhibitions and student programs
 - **Director & Leader**, SNU Engineering Volunteer Group *(Jun 2023 - Aug 2023)*
   - Led overall planning and field execution for regional educational engineering outreach
 - **President**, Dept. of Aerospace Engineering Student Council *(Dec 2021 - Oct 2022)*
