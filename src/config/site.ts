@@ -13,7 +13,7 @@ const site = {
     description: "Undergraduate student @ Seoul Nat'l Univ.",
     author: "Semin Na",
     logo: "/profile.png",
-    ogImage: "/og-image.png",
+    ogImage: "/og-image-2.png",
     // HTML lang attribute, affects page language and date formatting
     // Options: "zh-CN", "en", "ja", etc.
     lang: "en",
@@ -114,7 +114,7 @@ navigation: [
   labels: {
     postsTitle: "Projects",
     postsDescription: "Research & Development works, personal projects, and open-source contributions.",
-    projectsTitle: "d",
+    projectsTitle: "None",
     projectsDescription: "Small tools built for fun or to solve real problems.",
     friendsTitle: "Friends",
     friendsDescription: "Like-minded folks around the web.",
@@ -132,7 +132,7 @@ navigation: [
     commentSuccess: "Comment submitted",
   },
 
-  ogImage: "/og-image.png",
+  ogImage: "/og-image-2.png",
 } as const;
 
 export default site;
