@@ -9,7 +9,6 @@ import Link from "@/components/md/Link.astro";
 import Img from "@/components/md/Img.astro";
 import { Icon } from "astro-icon/components";
 import Toast from "@/components/blocks/Toast.astro";
-import Comments from "@/components/blocks/Comments.astro";
 import TableOfContents from "@/components/blocks/TableOfContents.astro";
 import site from "@/config/site";
 
@@ -72,30 +71,17 @@ const tags = post.data.tags || [];
           </a>
         </div>
 
-        <div
-          class="flex items-center gap-4 rounded-full border border-border/20 bg-muted/20 px-3 py-1 text-muted-foreground/60"
-        >
+        <div class="flex items-center gap-4 rounded-full border border-border/20 bg-muted/20 px-3 py-1 text-muted-foreground/60">
           <div class="flex items-center gap-1.5">
-            <span class="post-words-count">{post.body?.length} </span>
-            <span class="text-[10px] uppercase opacity-90">Words</span>
-          </div>
-
-          <div class="flex items-center gap-1.5">
+            <Icon name={"mdi:eye-outline"} />
             <span
-              class="artalk-pv-count"
+              id="post-view-count"
               data-page-key={Astro.url.pathname}
-              class="font-bold text-foreground/80">-</span
+              class="font-bold text-foreground/80"
             >
+              -
+            </span>
             <span class="text-[10px] uppercase opacity-90">Views</span>
-          </div>
-
-          <div class="flex items-center gap-1.5">
-            <span
-              class="artalk-comment-count"
-              data-page-key={Astro.url.pathname}
-              class="font-bold text-foreground/80">-</span
-            >
-            <span class="text-[10px] uppercase opacity-90">Comments</span>
           </div>
         </div>
       </div>
@@ -157,9 +143,49 @@ const tags = post.data.tags || [];
     </div>
 
     <Toast />
-    <Comments />
   </footer>
 </Layout>
+
+<script>
+  async function updatePostViews() {
+    const viewElement = document.getElementById("post-view-count");
+
+    if (!viewElement) return;
+
+    const path = viewElement.dataset.pageKey;
+
+    if (!path) return;
+
+    try {
+      const response = await fetch(
+        `/api/views?path=${encodeURIComponent(path)}`,
+        {
+          method: "POST",
+          cache: "no-store",
+          credentials: "same-origin",
+          headers: {
+            "X-View-Counter": "1",
+          },
+        },
+      );
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      viewElement.textContent = new Intl.NumberFormat("en-US").format(
+        data.views ?? 0,
+      );
+    } catch (error) {
+      console.error("Failed to load view count:", error);
+      viewElement.textContent = "-";
+    }
+  }
+
+  updatePostViews();
+</script>
 
 <style is:global>
   .prose p {
@@ -167,12 +193,10 @@ const tags = post.data.tags || [];
     word-break: break-word;
   }
 
-  .post-words-count,
-  .artalk-pv-count,
-  .artalk-comment-count {
-    color: var(--primary);
-    font-weight: 400;
-    opacity: 0.8;
+  #post-view-count {
+  color: var(--primary);
+  font-weight: 400;
+  opacity: 0.8;
   }
 
   #post-date {
