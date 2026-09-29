@@ -7,7 +7,7 @@ tags: [Robotics, 3D-Vision, Calibration, Kinematics]
 summary: Teaching-less 3D vision–robot calibration and surface-normal-based tool orientation for industrial robotic applications.
 ---
 
-![3D Vision Robot Coordinate System Calibration](./img/image_1-1.png)
+![3D Vision Robot Coordinate System Calibration](./img/image_1.png)
 
 Industrial vision-guided robots require accurate alignment between **3D camera and robot coordinate systems**. Conventional calibration often relies on repeated manual teaching, making the process time-consuming and dependent on operator experience.
 
@@ -23,7 +23,7 @@ As part of a 3-person industry-academia research team, I focused on developing a
 - Conducted experimental data collection and validation
 - Implemented forward kinematics for the **Hyundai Robotics HH020**
 
-![Industrial robot test environment](./img/image_1-2.jpg)
+![Industrial robot test environment](./img/image_1-1.jpg)
 
 *Industrial robot setup used for experimental data collection and validation.*
 
@@ -38,9 +38,9 @@ As part of a 3-person industry-academia research team, I focused on developing a
   Used SVD on 3D point-cloud data to estimate local surface normals and calculate corresponding tool orientations.
 
 - **Kinematic Analysis**  
-  Modeled the HH020's 6-DOF forward kinematics to investigate configuration-dependent orientation errors and robot constraints.
+  Modeled the HH020's 6-DOF forward kinematics to investigate configuration-dependent orientation errors & robot constraints.
 
-![3D vision measurement](./img/image_1-3.jpg)
+![3D vision measurement](./img/image_1-2.jpg)
 
 *3D vision measurements used for coordinate and surface-normal analysis.*
 

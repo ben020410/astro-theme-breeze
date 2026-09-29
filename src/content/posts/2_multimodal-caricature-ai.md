@@ -3,23 +3,70 @@ title: "Multimodal AI Personalized Storybook & Caricature Generation Service"
 subtitle: "2024 AI Convergence Industry-Academia Hackathon"
 createdAt: 2024-08-01
 category: data-software
-tags: [Generative-AI, GPT-4o, DALL-E-3, Multimodal, Computer-Vision]
-summary: LLM/VLM pipeline converting facial images into structured visual features and generating consistent personalized storybook caricatures.
+tags: [Generative-AI, GPT-4o, DALL-E-3, Multimodal, Prompt-Engineering]
+summary: Multimodal AI pipeline that transforms facial images and user preferences into personalized storybook narratives and character illustrations.
 ---
 
-![Multimodal_AI_Framework](./img/image_2.png)
+![Multimodal AI Framework](./img/image_2.png)
 
-End-to-end generative AI pipeline that transforms user face images into customized caricature storybooks using multimodal prompt engineering and vision-language models.
+Generative AI service that turns a user's face image and personal inputs into a **customized storybook featuring the user as the main character**.
 
-### 📌 Core Technical Contributions
-- **Facial Feature Extraction Pipeline**: Utilized **GPT-4o** to analyze key facial attributes (face shape, eyes, nose, features) from raw photos into structured JSON representations.
-- **Consistent Caricature Prompting**: Built a multi-stage prompt synthesis engine combining structured visual features with story scene contexts for **DALL-E 3**, maintaining character identity consistency across storybook pages.
-- **Personalized Narrative & Audio**: Generated tailored educational stories based on user inputs (age, educational goals, preferences) and rendered interactive storybooks with Flask and gTTS narration.
+The system uses GPT-4o to extract visual characteristics and generate personalized narratives, then synthesizes those inputs into structured prompts for **DALL-E 3 storybook illustrations**.
 
-### 🏆 Awards & Project Details
-- **Award**: **Silver Prize (3rd Place)**, 2024 AI Fusion Industry-Academia Hackathon
-- **Role**: Team Lead (Designed Multimodal LLM/VLM prompt architecture and pipeline integration)
+---
 
-🔗 **Presentation**: <a href="/presentation_dalle.pdf" target="_blank" rel="noopener noreferrer">Hackathon Final Presentation</a>
+### 👤 My Role
+
+**Team Lead · MM-LLM Prompting**
+
+- Led the 4-person hackathon team and overall project direction
+- Designed prompts for **GPT-4o facial-feature extraction**
+- Developed multi-stage prompts combining **visual features, story context, and scene descriptions**
+- Iteratively refined DALL-E 3 prompts to improve character similarity and visual consistency
+- Investigated model-specific failure cases and prompt-engineering strategies
+
+---
+
+### 🔧 Technical Contributions
+
+- **Multimodal Facial Feature Extraction**  
+  Used GPT-4o to convert facial images into structured attributes such as face shape, eyes, nose, and other visual characteristics.
+
+- **Personalized Story Generation**  
+  Generated story content based on user inputs including age, gender, preferences, and educational themes.
+
+- **Character-Aware Image Prompting**  
+  Combined extracted facial features with each story scene to generate DALL-E 3 prompts designed to preserve the character's visual identity.
+
+![Multimodal AI Generation Pipeline](./img/image_2-1.png)
+
+*Pipeline from user inputs and facial images to personalized stories and DALL-E 3 illustrations.*
+
+---
+
+### 🔄 Trial & Error
+
+Early experiments revealed two major limitations:
+
+- **Prompt sensitivity and model bias** could cause generated characters to diverge from the intended facial attributes.
+- **Cross-image consistency** was difficult to maintain when generating the same character across multiple story scenes.
+
+The prompting pipeline was iteratively refined to preserve important visual features while incorporating changing scene contexts.
+
+![Character Consistency Challenge](./img/image_2-2.png)
+
+*Early generations showed noticeable character drift across story scenes, motivating iterative prompt refinement.*
+
+---
+
+### 🏆 Project Result
+
+- **Silver Prize (3rd Place)**, 2024 AI Convergence Industry-Academia Hackathon
+- Built a working personalized storybook prototype using **GPT-4o, DALL-E 3, Flask, and gTTS**
+- **Role:** Team Lead / MM-LLM Prompting
+
+---
+
+🔗 **Presentation:** <a href="/presentation_dalle.pdf" target="_blank" rel="noopener noreferrer">Hackathon Final Presentation</a>  
 <br>
-🔗 **Demo Video**: <a href="/video_dalle.mp4" target="_blank" rel="noopener noreferrer">Play Demo Video</a>
+🔗 **Demo Video:** <a href="/video_dalle.mp4" target="_blank" rel="noopener noreferrer">Play Demo Video</a>

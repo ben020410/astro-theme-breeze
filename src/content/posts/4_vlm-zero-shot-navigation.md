@@ -3,26 +3,59 @@ title: "Zero-Shot Object Navigation Using Semantic Scene Descriptions and Dynami
 subtitle: "KRoC 2026 Proceedings"
 createdAt: 2026-02-01
 category: robotics-ai
-tags: [Embodied-AI, VLM, Zero-Shot-Navigation, SOTA, Robotics]
-summary: VLM-based Embodied AI framework achieving HM3D SOTA (SR 55.0% / SPL 33.7%) through semantic scene descriptions and dynamic decision logic.
+tags: [Embodied-AI, VLM, Zero-Shot-Navigation, Robotics]
+summary: VLM-based zero-shot object navigation framework using semantic scene descriptions, dynamic observation, and target verification.
 ---
 
+![Zero-Shot Object Navigation Framework](./img/image_4.png)
 
-![Overview](./img/image_4.png)
+Zero-shot object navigation framework designed to reduce the **text-image modality gap** in vision-language-based navigation.
 
-Embodied AI framework addressing the text-image modality gap in zero-shot object navigation, evaluated on **Habitat-Matterport 3D (HM3D)** and **Matterport 3D (MP3D)** benchmarks.
-
-### 📌 Core Technical Contributions
-- **Textual Intermediate Representation**: Generated panoramic 360° scene descriptions using **GPT-4o**, bridging the text-image modality gap by performing relevance matching in high-density text embedding spaces (BLIP-2).
-- **Dynamic Decision-Making**: Implemented an intuitive rotation trigger logic that selectively activates panoramic observation only at high-uncertainty decision points, significantly optimizing computational efficiency.
-- **Target Verification Module**: Built a dual-stage filtering pipeline combining VLM contextual re-evaluation with count-based cumulative detection to eliminate persistent false positives.
-- **SOTA Benchmark Performance**: Achieved **55.0% SR** and **33.7% SPL** on HM3D (+3.3%p SPL over VLFM baseline).
-
-### 🏛️ Venue & R&D Credits
-- **Proceedings**: 21st Korea Robotics Society Annual Conference (**KRoC 2026**) / Korea Robotics Society (KROS)
-- **Grant Support**: **Samsung Electronics** Research Funding & Incubation Center (Project No. `SRFC-IT2402-17`)
-- **Authors**: Yeongmok Cho, **Semin Na**, Jeongjun Choi, H. Jin Kim (Seoul National University)
+The approach represents panoramic observations through semantic scene descriptions and dynamically invokes additional visual reasoning at uncertain navigation points. It was evaluated on **Habitat-Matterport 3D(HM3D) & Matterport 3D(MP3D)** environments.
 
 ---
 
-🔗 **Paper**: <a href="/KRoC2026_ZSON.pdf" target="_blank" rel="noopener noreferrer">📄 KRoC 2026 Paper</a>
+### 👤 My Role
+
+**Co-Author · Research & Implementation**
+
+- Collaborated on the overall **navigation framework and model architecture**
+- Jointly implemented and iterated on the navigation pipeline with the research team
+- Contributed to technical discussions, debugging, and experimental development
+- Co-authored the resulting KRoC 2026 paper
+
+---
+
+### 🔧 Research Contributions
+
+- **Semantic Scene Representation**  
+  Generated panoramic scene descriptions using **GPT-4o** and used text-based representations to improve semantic relevance matching during navigation.
+
+- **Dynamic Decision-Making**  
+  Introduced a rotation-trigger mechanism that selectively activates panoramic observation at uncertain decision points instead of continuously invoking it.
+
+- **Target Verification**  
+  Combined contextual VLM re-evaluation with cumulative detections to reduce persistent false-positive target predictions.
+
+---
+
+### 📊 Benchmark Results
+
+The framework achieved **55.0% Success Rate (SR)** and **33.7% Success weighted by Path Length (SPL)** on HM3D.
+
+Compared with the VLFM baseline in the reported evaluation, SPL improved by approximately **3.3 percentage points**.
+
+---
+
+### 🏛️ Publication
+
+- **Venue:** 21st Korea Robotics Society Annual Conference (KRoC 2026)
+- **Society:** Korea Robotics Society (KROS)
+- **Grant Support:** Samsung Electronics Research Funding & Incubation Center  
+  Project No. `SRFC-IT2402-17`
+- **Authors:** Yeongmok Cho, **Semin Na**, Jeongjun Choi, H. Jin Kim
+- **Role:** Co-Author / Research & Implementation
+
+---
+
+🔗 **Paper:** <a href="/KRoC2026_ZSON.pdf" target="_blank" rel="noopener noreferrer">KRoC 2026 Paper</a>
