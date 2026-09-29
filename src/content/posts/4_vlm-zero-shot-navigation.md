@@ -51,8 +51,7 @@ Compared with the VLFM baseline in the reported evaluation, SPL improved by appr
 
 - **Venue:** 21st Korea Robotics Society Annual Conference (KRoC 2026)
 - **Society:** Korea Robotics Society (KROS)
-- **Grant Support:** Samsung Electronics Research Funding & Incubation Center  
-  Project No. `SRFC-IT2402-17`
+- **Grant Support:** Samsung Research Funding & Incubation Center of Samsung Electronics / Project No. `SRFC-IT2402-17`
 - **Authors:** Yeongmok Cho, **Semin Na**, Jeongjun Choi, H. Jin Kim
 - **Role:** Co-Author / Research & Implementation
 

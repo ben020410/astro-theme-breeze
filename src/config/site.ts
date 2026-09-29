@@ -45,7 +45,7 @@ navigation: [
     greeting: "Hello, I'm Semin Na",
     // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
     description:
-      'I build <span class="font-medium text-foreground underline decoration-primary/30">intelligent systems</span> that perceive, reason, and act in the physical world. I study Aerospace Engineering at <span class="font-medium text-foreground underline decoration-primary/30">Seoul National University</span>, with a focus on <span class="font-medium text-foreground underline decoration-primary/30">Autonomous Robotics</span>, Embodied AI, while exploring technology entrepreneurship.',
+      'I build <span class="font-medium text-foreground underline decoration-primary/30">intelligent systems</span> that perceive, reason, and act in the physical world. I study Aerospace Engineering at <span class="font-medium text-foreground underline decoration-primary/30">Seoul National University</span>, with a focus on <span class="font-medium text-foreground underline decoration-primary/30">Autonomous Robotics</span> and Embodied AI, while exploring technology entrepreneurship.',
     cards: [
       { icon: "mdi:robot", label: "Research", value: "Autonomous Robotics & AI" },
       { icon: "mdi:account-group", label: "Leadership", value: "Former Engineering Student Council President" },

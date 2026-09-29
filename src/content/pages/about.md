@@ -31,7 +31,7 @@ My work focuses on **autonomous robotics and embodied AI**, with hands-on experi
   </a>
   - **Venue**: 21st Korea Robotics Society Annual Conference (KRoC 2026) / KROS
   - **Key Results**: Proposed VLM scene representations & dynamic decision logic; achieved **SR 55.0% / SPL 33.7% on HM3D**
-  - **Grant**: Supported by Samsung Science & Technology Foundation (Project No. SRFC-IT2402-17)
+  - **Grant**: Supported by Samsung Research Funding & Incubation Center of Samsung Electronics (Project No. SRFC-IT2402-17)
   - **Role**: Co-Author (2nd Author) · Research & Implementation
 
 - **3D Vision–Robot Auto Calibration & Tool Pose Optimization** *(Jan 2024 - Feb 2024)*
