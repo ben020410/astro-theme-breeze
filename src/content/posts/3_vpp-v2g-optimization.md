@@ -1,9 +1,9 @@
 ---
-title: "Virtual Power Plant (VPP) & V2G Peak Demand Control Optimization"
+title: "Virtual Power Plant (VPP) & V2G Peak Demand Reduction Analysis"
 subtitle: "2024 CO-Data Station"
 createdAt: 2024-11-01
 category: data-software
-tags: [Data-Science, VPP, V2G, Smart-Grid, Optimization]
+tags: [Data-Science, VPP, V2G, Smart-Grid]
 summary: Data-driven V2G-VPP framework using commuter EV batteries to redistribute regional energy supply and reduce Seoul's peak power demand.
 ---
 
