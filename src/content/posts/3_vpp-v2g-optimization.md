@@ -7,8 +7,8 @@ tags: [Data-Science, VPP, Smart-Grid, Optimization, Energy-AI]
 summary: Data-driven V2G-VPP grid optimization model reducing Seoul's peak power demand by 17.3 MW using commuter EV battery energy routing.
 ---
 
-![VPP-V2G Idea 1](./image_3-1.png)
-![VPP-V2G Idea 2](./image_3-2.png)
+![VPP-V2G Idea 1](./img/image_3-1.png)
+![VPP-V2G Idea 2](./img/image_3-2.png)
 
 Data analytics and simulation framework for Korean Virtual Power Plants (VPP) utilizing Vehicle-to-Grid (V2G) technology to resolve regional power grid imbalances.
 

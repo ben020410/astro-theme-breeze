@@ -7,7 +7,7 @@ tags: [Generative-AI, GPT-4o, DALL-E-3, Multimodal, Computer-Vision]
 summary: LLM/VLM pipeline converting facial images into structured visual features and generating consistent personalized storybook caricatures.
 ---
 
-![Multimodal_AI_Framework](./image_2.png)
+![Multimodal_AI_Framework](./img/image_2.png)
 
 End-to-end generative AI pipeline that transforms user face images into customized caricature storybooks using multimodal prompt engineering and vision-language models.
 

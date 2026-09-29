@@ -8,7 +8,7 @@ summary: VLM-based Embodied AI framework achieving HM3D SOTA (SR 55.0% / SPL 33.
 ---
 
 
-![Overview](./image_4.png)
+![Overview](./img/image_4.png)
 
 Embodied AI framework addressing the text-image modality gap in zero-shot object navigation, evaluated on **Habitat-Matterport 3D (HM3D)** and **Matterport 3D (MP3D)** benchmarks.
 

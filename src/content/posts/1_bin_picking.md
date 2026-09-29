@@ -3,25 +3,68 @@ title: "3D Vision-Robot Auto Calibration & Tool Pose Optimization"
 subtitle: "MSIT National R&D Project"
 createdAt: 2024-02-01
 category: robotics-ai
-tags: [Robotics, 3D-Vision, ROS2, Industrial-AI]
-summary: Teaching-less 3D Vision-Robot auto-calibration and tool orientation optimization for curved surface bin-picking.
+tags: [Robotics, 3D-Vision, Calibration, Kinematics]
+summary: Teaching-less 3D vision–robot calibration and surface-normal-based tool orientation for industrial robotic applications.
 ---
 
-![3D Vision Robot Coordinate System Calibration](./image_1.png)
+![3D Vision Robot Coordinate System Calibration](./img/image_1-1.png)
 
-Industrial bin-picking and sanding automation pipeline developed in collaboration with **Hyundai Motor Company** and **Ajin Industrial Co., Ltd.**
+Industrial vision-guided robots require accurate alignment between **3D camera and robot coordinate systems**. Conventional calibration often relies on repeated manual teaching, making the process time-consuming and dependent on operator experience.
 
-### 📌 Core Technical Contributions
-- **Teaching-less Auto-Calibration**: Derived a 4×4 Homogeneous Transformation Matrix using empirical displacements to eliminate manual robot teaching.
-- **Tool Orientation Optimization**: Applied **SVD Plane Fitting** and **Rodrigues' Rotation Formula** to align tool orientations with 3D point cloud surface normal vectors.
-- **6-DOF Kinematics Modeling**: Implemented forward kinematics for Hyundai Robotics HH020 manipulator to analyze joint limit constraints and singularities.
-
-### 🏛️ Grant & Industry Credits
-- **National R&D Project**: Ministry of Science and ICT (MSIT) / NRF (Grant No. `RS-2021-NR057855`)
-- **Consortium & Partners**: SNU Materials & Components Consortium, Hyundai Motor, Ajin Industrial
-- **Role**: Co-Researcher
+As part of a 3-person industry-academia research team, I focused on developing and experimentally validating methods for **automatic coordinate calibration and tool orientation optimization**.
 
 ---
 
-🔗 **GitHub Repository**: [ben020410/bin_picking](https://github.com/ben020410/bin_picking)  
-*(Complete mathematical derivations, Jupyter Notebooks, and SVD/Rodrigues implementation code are available in the repository.)*
+### 👤 My Role
+
+- Led implementation of the **vision–robot auto-calibration algorithm**
+- Implemented **SVD plane fitting** for surface-normal estimation
+- Applied **Rodrigues' rotation formula** for tool orientation calculation
+- Conducted experimental data collection and validation
+- Implemented forward kinematics for the **Hyundai Robotics HH020**
+
+![Industrial robot test environment](./img/image_1-2.jpg)
+
+*Industrial robot setup used for experimental data collection and validation.*
+
+---
+
+### 🔧 Technical Contributions
+
+- **Teaching-less Auto-Calibration**  
+  Estimated a 4×4 homogeneous transformation matrix from controlled robot displacements, reducing reliance on repeated manual teaching.
+
+- **Surface-Normal-Based Tool Orientation**  
+  Used SVD on 3D point-cloud data to estimate local surface normals and calculate corresponding tool orientations.
+
+- **Kinematic Analysis**  
+  Modeled the HH020's 6-DOF forward kinematics to investigate configuration-dependent orientation errors and robot constraints.
+
+![3D vision measurement](./img/image_1-3.jpg)
+
+*3D vision measurements used for coordinate and surface-normal analysis.*
+
+---
+
+### 📊 Validation
+
+In one validation case, a target position of approximately `(200, 200)` was reconstructed as `(197.59, 202.58)`, corresponding to errors of approximately **1.21% and 1.29%** along the evaluated axes.
+
+The experiments also showed that orientation calculations alone were insufficient at certain robot configurations, motivating further consideration of joint limits and inverse kinematics.
+
+---
+
+### 🏛️ Project Context
+
+- **Program:** Ministry of Science and ICT (MSIT) / National Research Foundation of Korea
+- **Grant:** `RS-2021-NR057855`
+- **Technical Advisory:** Hyundai Motor Company
+- **Industry Collaboration:** Ajin Industrial Co., Ltd.
+- **Academic Support:** Seoul National University Industry-Academic Cooperation
+- **Role:** Co-Researcher (3-person team)
+
+---
+
+🔗 **GitHub Repository:** [ben020410/bin_picking](https://github.com/ben020410/bin_picking)
+
+*Implementation notebooks and experimental validation materials are available in the repository.*
