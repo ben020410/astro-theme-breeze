@@ -10,7 +10,7 @@ const site = {
   // --- Site Metadata ---
   meta: {
     title: "Semin Na",
-    description: "Undergraduate student @ Seoul Nat'l Univ.",
+    description: "Undergraduate student @ SNU",
     author: "Semin Na",
     logo: "/profile.png",
     ogImage: "/og-image-2.png",
@@ -34,10 +34,10 @@ navigation: [
   ],
 
   friendCard: {
-    name: "Breeze",
+    name: "Semin Na",
     description: "A minimal Astro theme for personal websites",
-    link: "https://your-domain.com",
-    avatar: "https://your-domain.com/logo.svg",
+    link: "https://semin-na.vercel.app",
+    avatar: "https://semin-na.vercel.app/profile.png",
   },
 
   // --- Homepage Hero ---

@@ -1,5 +1,5 @@
 ---
-title: "Zero-Shot Object Navigation via Semantic Scene Descriptions and Dynamic Decision-Making"
+title: "Zero-Shot Object Navigation Using Semantic Scene Descriptions and Dynamic Decision-Making"
 subtitle: "KRoC 2026 Proceedings"
 createdAt: 2026-02-01
 category: robotics-ai

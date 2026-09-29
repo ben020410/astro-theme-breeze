@@ -17,7 +17,7 @@ description: Embodied AI Researcher & Tech Entrepreneur
 
 <h2 id="research">🔬 Research & Publications</h2>
 
-- **Zero-Shot Object Navigation via Semantic Scene Descriptions & Dynamic Decision-Making** *(Oct 2025 - Feb 2026)*
+- **Zero-Shot Object Navigation Using Semantic Scene Descriptions & Dynamic Decision-Making** *(Oct 2025 - Feb 2026)*
   <a href="/posts/4_vlm-zero-shot-navigation" target="_blank" rel="noopener noreferrer" style="text-decoration: none; margin-left: 2px; display: inline-flex; align-items: center; vertical-align: middle;" title="Project Details">
     <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.8;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
   </a>
@@ -35,10 +35,13 @@ description: Embodied AI Researcher & Tech Entrepreneur
   <a href="https://github.com/ben020410/bin_picking" target="_blank" rel="noopener noreferrer" style="text-decoration: none; margin-left: 4px; display: inline-flex; align-items: center; vertical-align: middle;" title="GitHub Repository">
     <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" style="opacity: 0.8;"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
   </a>
+  - **Topic**: 3D Vision-Robot Auto Calibration & Tool Pose Optimization
   - **Agency & Grant**: National Research Foundation of Korea (NRF) / Grant No. RS-2021-NR057855
   - **Role**: Co-Researcher
 
-- **SNU Undergraduate Research Opportunity Program (UROP)** *(Aug 2024 - Dec 2024)*
+- **SNU Undergraduate Research Opportunity Program (UROP) @ LARR** *(Aug 2024 - Dec 2024)* <a href="https://larr.snu.ac.kr/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; margin-left: 2px; display: inline-flex; align-items: center; vertical-align: middle;" title="Homepage">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9M5 10v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V10"/></svg>
+    </a>
   - **Topic**: Robotic Task Planning & Execution via LLM/VLM APIs
 
 ---
@@ -55,7 +58,7 @@ description: Embodied AI Researcher & Tech Entrepreneur
   - Exercised full voting rights on the corporate board for university welfare business and financial governance
 - **Chairman / General Director**, 35th SNU Aerospace Exhibition *(Jun 2022 - Nov 2022)*
   - Directed total event operations, technical exhibitions, and cross-departmental logistics
-  - Secured ₩11M in corporate sponsorships to fund large-scale R&D exhibitions and student programs
+  - Secured 11M KRW in corporate sponsorships to fund R&D exhibitions and student programs
 - **Director & Leader**, SNU Engineering Volunteer Group *(Jun 2023 - Aug 2023)*
   - Led overall planning and field execution for regional educational engineering outreach
 - **President**, Dept. of Aerospace Engineering Student Council *(Dec 2021 - Oct 2022)*
@@ -64,12 +67,12 @@ description: Embodied AI Researcher & Tech Entrepreneur
 
 <h2 id="education">🎓 Education & Global Programs</h2>
 
-- **B.S. Candidate in Aerospace Engineering**, Seoul National University *(Mar 2021 - Dec 2027, Expected)*
-  - College of Engineering (Enrolled, Spring 2021 – Fall 2027)
+- **B.S. Candidate in Aerospace Engineering**, Seoul National University *(Mar 2021 - Feb 2028, Expected)*
+  - College of Engineering
 - **UNLV Experiential and Cultural Program** *(Feb 2025)*
-  - Completed 104-hour intensive program at UNLV Howard R. Hughes College of Engineering
+  - Completed 104hr intensive program @ UNLV Howard R. Hughes College of Engineering
 - **CES 2025** *(Jan 2025)*
-  - Participated in global technology trend research and field studies in Las Vegas, USA
+  - Participated in global technology trend research and field studies in Las Vegas, United States
 - **Microdegrees Completed** *(Jan 2024 - Feb 2025)*
   - Drone AI Big Data Application (13 credits)
   - Advanced Big Data (12 credits)
@@ -81,11 +84,11 @@ description: Embodied AI Researcher & Tech Entrepreneur
 - **Council Chairman Award (4th Place)**, 2024 CO-Data Station <span style="color:grey">/ Team Leader</span> *(Nov 2024)* <a href="/posts/3_vpp-v2g-optimization" target="_blank" rel="noopener noreferrer" style="text-decoration: none; margin-left: 2px; display: inline-flex; align-items: center; vertical-align: middle;" title="Project Details">
     <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.8;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
   </a>
-  - Virtual Power Plant (VPP) Optimization for High-Efficiency Renewable Energy
+  - Virtual Power Plant (VPP) & V2G Peak Demand Control Optimization
 - **Silver Prize (3rd Place)**, 2024 AI Convergence Industry-Academia Hackathon <span style="color:grey">/ Team Leader</span> *(Aug 2024)* <a href="/posts/2_multimodal-caricature-ai" target="_blank" rel="noopener noreferrer" style="text-decoration: none; margin-left: 2px; display: inline-flex; align-items: center; vertical-align: middle;" title="Project Details">
     <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0.8;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
   </a>
-  - Multimodal Model-Based Caricature Generation Service
+  - Multimodal AI Personalized Storybook & Caricature Generation Service
 - **Finalist**, 22nd Korea Robotic Aircraft Competition (AAM Tech Challenge) <span style="color:grey">/ Communications Specialist</span> *(Sep 2024)*
 - **Excellence Award (4th Place)**, 2025 SNU College of Engineering Idea Competition *(Oct 2025)*
   - Interest-Based Student Interdisciplinary Exchange & Matching Analytics System
